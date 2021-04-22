@@ -11,7 +11,7 @@
   "main": "index.js",
   "types": "./index.d.ts",
   "exports": {
-    "./": {
+    ".": {
       "import": "./index.js",
       "default": "./index.js"
     }
