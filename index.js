@@ -18,8 +18,8 @@ export function useSession({
   const router = useRouter()
   const query = useQuery(["session"], fetchSession, {
     ...queryConfig,
-    onSettled(data) {
-      if (queryConfig.onSettled) queryConfig.onSettled(data)
+    onSettled(data, error) {
+      if (queryConfig.onSettled) queryConfig.onSettled(data, error)
       if (data || !required) return
       router.push(redirectTo)
     },
