@@ -17,11 +17,12 @@ export function useSession({
 } = {}) {
   const router = useRouter()
   const query = useQuery(["session"], fetchSession, {
-    onSettled(data) {
+    ...queryConfig,
+    onSettled(data, error) {
+      if (queryConfig.onSettled) queryConfig.onSettled(data, error)
       if (data || !required) return
       router.push(redirectTo)
     },
-    ...queryConfig,
   })
   return [query.data, query.status === "loading"]
 }
