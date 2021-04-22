@@ -6,7 +6,7 @@
   "bugs": {
     "url": "https://github.com/nextauthjs/react-query/issues"
   },
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "React Query wrapper for NextAuth.js session management",
   "main": "index.js",
   "types": "./index.d.ts",
