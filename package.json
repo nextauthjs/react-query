@@ -1,0 +1,41 @@
+{
+  "name": "@next-auth/react-query",
+  "repository": {
+    "url": "https://github.com/nextauthjs/react-query"
+  },
+  "bugs": {
+    "url": "https://github.com/nextauthjs/react-query/issues"
+  },
+  "version": "0.0.1",
+  "description": "React Query wrapper for NextAuth.js session management",
+  "main": "index.js",
+  "types": "./index.d.ts",
+  "exports": {
+    "./": {
+      "import": "./index.js",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts"
+  ],
+  "peerDependencies": {
+    "next": "^10.0.3",
+    "next-auth": "^3.15.9",
+    "react": "^17.0.2",
+    "react-query": "^3.13.11"
+  },
+  "devDependencies": {
+    "next": "^10.0.3",
+    "next-auth": "^3.15.9",
+    "react": "^17.0.2",
+    "react-query": "^3.13.11"
+  },
+  "keywords": [
+    "next-auth",
+    "react-query"
+  ],
+  "author": "Balázs Orbán <info@balazsorban.com>",
+  "license": "ISC"
+}
