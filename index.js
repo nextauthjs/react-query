@@ -10,7 +10,7 @@ async function fetchSession() {
   return null
 }
 
-export default function useSession({
+export function useSession({
   required,
   redirectTo = "/api/auth/signin?error=SessionExpired",
   queryConfig,
