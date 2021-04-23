@@ -4,7 +4,7 @@ import { UseQueryOptions } from "react-query"
 /**
  * React Query wrapper to retrieve `Session`.
  * Replaces `useSession` and `Provider` from `next-auth/client` in codebases
- * where you alreay use `react-query`.
+ * where you already use `react-query`.
  *
  * [`useSession`](https://next-auth.js.org/getting-started/client#usesession) |
  * [`Provider`](https://next-auth.js.org/getting-started/client#provider) |
