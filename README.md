@@ -1,8 +1,8 @@
 <p align="center">
-  <img alt="React Query logo"
-    src="https://react-query.tanstack.com/_next/static/images/logo-a65f848e05592e7de1dc2150454230fa.svg"
+  <img alt="Next Auth logo"
+    src="https://next-auth.js.org/img/logo/logo-sm.png"
     height="32" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="plus sign" src="https://www.svgrepo.com/show/138538/plus-sign.svg"
-    height="24" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="Next Auth logo" src="https://next-auth.js.org/img/logo/logo-sm.png"
+    height="24" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="React Query logo" src="https://react-query.tanstack.com/_next/static/images/logo-a65f848e05592e7de1dc2150454230fa.svg"
     height="32" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="equal sign" src="https://www.svgrepo.com/show/106212/equal.svg"
     height="24" /> &nbsp;&nbsp;<img alt="heart"
     src="https://upload.wikimedia.org/wikipedia/commons/3/35/Emoji_u2665.svg" height="24" />
