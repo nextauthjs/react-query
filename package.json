@@ -9,6 +9,9 @@
 	"version": "0.0.6",
 	"description": "React Query wrapper for NextAuth.js session management",
 	"type": "commonjs",
+	"keywords": ["next-auth", "react-query"],
+	"author": "Balázs Orbán <info@balazsorban.com>",
+	"license": "ISC",
 	"main": "dist/index.js",
 	"exports": {
 		".": {
@@ -34,8 +37,5 @@
 		"next-auth": "^3.15.9",
 		"react": "^17.0.2",
 		"react-query": "^3.13.11"
-	},
-	"keywords": ["next-auth", "react-query"],
-	"author": "Balázs Orbán <info@balazsorban.com>",
-	"license": "ISC"
+	}
 }
