@@ -1,12 +1,11 @@
 <p align="center">
   <img alt="Next Auth logo"
     src="https://next-auth.js.org/img/logo/logo-sm.png"
-    height="32" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="plus sign" src="https://www.svgrepo.com/show/138538/plus-sign.svg"
-    height="24" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="React Query logo" src="https://react-query.tanstack.com/_next/static/images/logo-a65f848e05592e7de1dc2150454230fa.svg"
-    height="32" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="equal sign" src="https://www.svgrepo.com/show/106212/equal.svg"
-    height="24" /> &nbsp;&nbsp;<img alt="heart"
-    src="https://upload.wikimedia.org/wikipedia/commons/3/35/Emoji_u2665.svg" height="24" />
-  <h3 align="center">@next-auth/react-query</h3>
+    height="64" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="plus sign" src="https://www.svgrepo.com/show/138538/plus-sign.svg"
+    height="48" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="React Query logo" src="https://react-query.tanstack.com/_next/static/images/logo-a65f848e05592e7de1dc2150454230fa.svg"
+    height="64" />
+  <h3 align="center">NextAuth.js React-Query Client</h3>
+  <p align="center">@next-auth/react-query</p>
   <p align="center">React Query wrapper for NextAuth.js session management.</p>
   <p align="center" style="align: center;">
     <a href="https://www.npmtrends.com/@next-auth/react-query">
@@ -21,6 +20,18 @@
     </a>
   </p>
 </p>
+
+## Overview
+
+This is an alternative client for `next-auth` based upon [`react-query`](https://react-query.tanstack.com/). It can replace the built-in session management on the client-side by taking advantage of `react-query`'s built-in caching, auto refetching, etc.
+
+## Getting Started
+
+```
+npm install --save @next-auth/react-query
+```
+
+You can then import `useSession` from this package, instead of the core `next-auth` package. More usage details can be found below.
 
 
 ## API Reference
@@ -71,3 +82,11 @@ The [shape](https://github.com/nextauthjs/next-auth/blob/88ec3bad71eb60ed86b3d95
 ## Acknowledgements
 
 Based on [this discussion](https://github.com/nextauthjs/next-auth/discussions/1803) between [@kripod](https://github.com/kripod) and [@balazsorban44](https://github.com/balazsorban44)
+
+## Contributing
+
+We're open to all community contributions! If you'd like to contribute in any way, please first read our [Contributing Guide](https://github.com/nextauthjs/next-auth/blob/canary/CONTRIBUTING.md).
+
+## License
+
+ISC
