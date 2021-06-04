@@ -6,10 +6,16 @@
   "bugs": {
     "url": "https://github.com/nextauthjs/react-query/issues"
   },
+  "author": "Balázs Orbán <info@balazsorban.com>",
+  "license": "ISC",
   "version": "0.0.6",
   "description": "React Query wrapper for NextAuth.js session management",
   "main": "index.js",
   "types": "./index.d.ts",
+  "keywords": [
+    "next-auth",
+    "react-query"
+  ],
   "exports": {
     ".": {
       "import": "./index.js",
@@ -20,6 +26,11 @@
     "index.js",
     "index.d.ts"
   ],
+  "scripts": {
+    "test:ci": "npm run lint",
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix"
+  },
   "peerDependencies": {
     "next": "^10.0.3",
     "next-auth": "^3.15.9",
@@ -27,15 +38,29 @@
     "react-query": "^3.13.11"
   },
   "devDependencies": {
+    "eslint": "^7.27.0",
+    "eslint-config-prettier": "^8.3.0",
     "next": "^10.0.3",
     "next-auth": "^3.15.9",
+    "prettier": "^2.3.0",
     "react": "^17.0.2",
     "react-query": "^3.13.11"
   },
-  "keywords": [
-    "next-auth",
-    "react-query"
-  ],
-  "author": "Balázs Orbán <info@balazsorban.com>",
-  "license": "ISC"
+  "eslintConfig": {
+    "extends": [
+			"eslint:recommended",
+      "prettier"
+    ],
+		"parserOptions": {
+			"ecmaVersion": 2020,
+			"sourceType": "module"
+		},
+    "ignorePatterns": [
+      "node_modules",
+      "index.d.ts"
+    ],
+		"globals": {
+			"fetch": "readonly"
+		}
+  }
 }
