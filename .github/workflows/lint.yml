@@ -23,4 +23,4 @@ jobs:
       - name: Install dependencies
         uses: bahmutov/npm-install@v1
 
-      - run: npm test:ci
+      - run: npm run test:ci
