@@ -1,3 +1,2 @@
 node_modules
-index.esm.js
-index.cjs.js
+dist

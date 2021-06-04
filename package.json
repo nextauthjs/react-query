@@ -8,10 +8,17 @@
 	},
 	"version": "0.0.6",
 	"description": "React Query wrapper for NextAuth.js session management",
-	"main": "index.cjs.js",
-	"module": "index.esm.js",
+	"type": "commonjs",
+	"main": "dist/index.js",
+	"exports": {
+		".": {
+			"require": "dist/index.js",
+			"default": "dist/index.mjs"
+		}
+	},
+	"module": "dist/index.mjs",
 	"types": "./index.d.ts",
-	"files": ["index.*.js"],
+	"files": ["index.js", "index.d.js", "dist/*"],
 	"scripts": {
 		"build": "node build.js"
 	},
