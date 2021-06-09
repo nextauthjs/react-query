@@ -10,23 +10,27 @@
   "license": "ISC",
   "version": "0.0.6",
   "description": "React Query wrapper for NextAuth.js session management",
-  "main": "index.js",
-  "types": "./index.d.ts",
+  "type": "commonjs",
   "keywords": [
     "next-auth",
     "react-query"
   ],
+  "main": "dist/index.js",
   "exports": {
     ".": {
-      "import": "./index.js",
-      "default": "./index.js"
+      "require": "dist/index.js",
+      "default": "dist/index.mjs"
     }
   },
+  "module": "dist/index.mjs",
+  "types": "./index.d.ts",
   "files": [
     "index.js",
-    "index.d.ts"
+    "index.d.js",
+    "dist/*"
   ],
   "scripts": {
+    "build": "node build.js",
     "test:ci": "npm run lint",
     "lint": "eslint .",
     "lint:fix": "eslint . --fix"
@@ -38,6 +42,7 @@
     "react-query": "^3.13.11"
   },
   "devDependencies": {
+    "esbuild": "^0.12.6",
     "eslint": "^7.27.0",
     "eslint-config-prettier": "^8.3.0",
     "next": "^10.0.3",
@@ -48,19 +53,19 @@
   },
   "eslintConfig": {
     "extends": [
-			"eslint:recommended",
+      "eslint:recommended",
       "prettier"
     ],
-		"parserOptions": {
-			"ecmaVersion": 2020,
-			"sourceType": "module"
-		},
+    "parserOptions": {
+      "ecmaVersion": 2020,
+      "sourceType": "module"
+    },
     "ignorePatterns": [
       "node_modules",
       "index.d.ts"
     ],
-		"globals": {
-			"fetch": "readonly"
-		}
+    "globals": {
+      "fetch": "readonly"
+    }
   }
 }
