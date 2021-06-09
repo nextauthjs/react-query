@@ -1,7 +1,7 @@
 import { useQuery } from "react-query"
 import { useRouter } from "next/router"
 
-async function fetchSession() {
+export async function fetchSession() {
   const res = await fetch("/api/auth/session")
   const session = await res.json()
   if (Object.keys(session).length) {
