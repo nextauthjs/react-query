@@ -8,7 +8,7 @@
   },
   "author": "Balázs Orbán <info@balazsorban.com>",
   "license": "ISC",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "React Query wrapper for NextAuth.js session management",
   "type": "commonjs",
   "keywords": [
@@ -18,8 +18,8 @@
   "main": "dist/index.js",
   "exports": {
     ".": {
-      "require": "dist/index.js",
-      "default": "dist/index.mjs"
+      "require": "./dist/index.js",
+      "default": "./dist/index.mjs"
     }
   },
   "module": "dist/index.mjs",
