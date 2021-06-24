@@ -10,19 +10,16 @@
   "license": "ISC",
   "version": "0.0.11",
   "description": "React Query wrapper for NextAuth.js session management",
-  "type": "commonjs",
   "keywords": [
     "next-auth",
     "react-query"
   ],
-  "main": "dist/index.js",
   "exports": {
     ".": {
       "require": "./dist/index.js",
       "default": "./dist/index.mjs"
     }
   },
-  "module": "dist/index.mjs",
   "types": "./index.d.ts",
   "files": [
     "index.js",
