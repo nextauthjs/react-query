@@ -2,6 +2,13 @@ import { Session } from "next-auth"
 import { UseQueryOptions } from "react-query"
 
 /**
+ * Fetches session from `/api/auth/session`,
+ * parses its JSON response, and returns it.
+ * If there is no session, it returns `null`
+ */
+export function fetchSession(): Promise<Session | null>
+
+/**
  * React Query wrapper to retrieve `Session`.
  * Replaces `useSession` and `Provider` from `next-auth/client` in codebases
  * where you already use `react-query`.
