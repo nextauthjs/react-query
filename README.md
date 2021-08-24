@@ -53,8 +53,8 @@ const [session, loading] = useSession({
   required: true,
   redirectTo: "/auth/sign-in?error=InvalidSession",
   queryConfig: {
-    staleTime: 60 * 60 * 3, // 3 hours
-    refetchInterval: 60 * 5 // 5 minutes 
+    staleTime: 60 * 1000 * 60 * 3, // 3 hours
+    refetchInterval: 60 * 1000 * 5 // 5 minutes 
   }
 })
 ...
