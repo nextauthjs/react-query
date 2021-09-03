@@ -63,7 +63,7 @@ const [session, loading] = useSession({
 | Parameter | Type     | Description                       | Default |
 | :-------- | :------- | :-------------------------------- | :-----: |
 | `required`| `boolean`| If `true`, will redirect when no session available | `false` |
-| `redrectTo`| `string`| When `required: true`, this is where the user will be redirected | `"/api/auth/session"` |
+| `redirectTo`| `string`| When `required: true`, this is where the user will be redirected | `"/api/auth/session"` |
 | `queryConfig` | `UseQueryOptions` | See React Query's `useQuery` [Options](https://react-query.tanstack.com/reference/useQuery) | `{}` |
 
 > TIP: `staleTime` and `refetchInterval` respectively match `clientMaxAge` and `keepAlive` from the [Original API](https://next-auth.js.org/getting-started/client#options).
