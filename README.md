@@ -2,7 +2,7 @@
   <img alt="Next Auth logo"
     src="https://next-auth.js.org/img/logo/logo-sm.png"
     height="64" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="plus sign" src="https://www.svgrepo.com/show/138538/plus-sign.svg"
-    height="48" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="React Query logo" src="https://react-query.tanstack.com/_next/static/images/logo-a65f848e05592e7de1dc2150454230fa.svg"
+    height="48" />&nbsp;&nbsp;&nbsp;&nbsp;<img alt="React Query logo" src="https://raw.githubusercontent.com/tannerlinsley/react-query/master/docs/src/images/logo.svg"
     height="64" />
   <h3 align="center">NextAuth.js React-Query Client</h3>
   <p align="center">@next-auth/react-query</p>
