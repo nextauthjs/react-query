@@ -29,8 +29,8 @@
   "scripts": {
     "build": "node build.js",
     "test:ci": "npm run lint",
-    "lint": "eslint .",
-    "lint:fix": "eslint . --fix"
+    "lint": "eslint --env es6 .",
+    "lint:fix": "eslint --env es6 . --fix"
   },
   "peerDependencies": {
     "next": "^10.0.3",
