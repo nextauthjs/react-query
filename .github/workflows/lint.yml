@@ -9,6 +9,8 @@ on:
 
 jobs:
   test:
+    name: Lint
+    runs-on: ubuntu-latest
     strategy:
       matrix:
         node-version: [10, 12, 14]
