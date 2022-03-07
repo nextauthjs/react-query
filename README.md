@@ -1,3 +1,5 @@
+Not maintained anymore, see: https://github.com/nextauthjs/react-query/issues/7#issuecomment-923099050
+
 <p align="center">
   <img alt="Next Auth logo"
     src="https://next-auth.js.org/img/logo/logo-sm.png"
